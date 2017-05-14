@@ -21,14 +21,15 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: EntranceJew/chocolatey-packages
   github_api_key:
-    secure: tvOtgcaQNxeMIKmphhkB8ra5dAKLyQre+XEHQnq81TXg7t8Xz0er3ZejhFMpzXDC #https://ci.appveyor.com/tools/encrypt
+    secure: Kw9hOvfE1uTg10JrjFmrqan5s5R5LOui+DrL5lvGavYY6PsL6kylNMOXMxEQ+38w #https://ci.appveyor.com/tools/encrypt
 
 
   # Mail credentials - for error notifications
   mail_user:
-    secure: YOUR_EMAIL_ACCOUNT_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
+    secure: n7Y0ql3ubtdcOSDk/OiGHcLzLeIrK17AKKnZrFRhgso= #https://ci.appveyor.com/tools/encrypt
   mail_pass:
-    secure: YOUR_EMAIL_PASSWORD_HERE_ENCRYPTED_STRING #https://ci.appveyor.com/tools/encrypt
+    secure: OvUjmTmhsqC6T7/4vi/cXbJH2llBn4HxsljqR1WC0drT+H8URHHbNQHMuZRvT9/Ow+jctMKs1+6COG/x6GfgNqY0hZOVsqJxXp+bUw36axv+9Dwlu2zPRQdGuzqiQ9hXy2r0lP4FGbHSoHWSQyQolA==
+ #https://ci.appveyor.com/tools/encrypt
   mail_server: smtp.gmail.com
   mail_port: 587
   mail_enablessl: true
@@ -42,7 +43,7 @@ environment:
 
   # Chocolatey API key - to push updated packages
   api_key:
-    secure: FVndynZ5aaG0Y1ReQva8JdQgHCMJtiWjDwEY6lx/9gA/8DRf0eeu63mtEfEtZuXG # https://ci.appveyor.com/tools/encrypt
+    secure: LCG4N37Nzf5VoWrfZf0g6v5Yn5tbydPMoN3W07UN5Il0KitTAEmCexlVej8AsxBj # https://ci.appveyor.com/tools/encrypt
 
 init:
 - git config --global user.email "chocolatey@realdimensions.net"
