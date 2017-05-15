@@ -7,7 +7,7 @@ $checksum64  = 'ccf8f90615d7de64734aa3e3974e3e9ec40e9092bd84cadbf0b6a139706e2cb4
 $installLocation = Join-Path $(Get-ToolsLocation) '010editor'
 
 $packageArgs = @{
-  packageName   = '010editor'
+  packageName   = '010editor.portable'
   fileType      = 'EXE'
   softwareName  = '010 Editor*'
   
