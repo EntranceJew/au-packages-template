@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 
 $url32       = 'https://www.sweetscape.com/download/010EditorWin32Installer.exe'
 $url64       = 'https://www.sweetscape.com/download/010EditorWin64Installer.exe'
