@@ -19,7 +19,7 @@ $packageArgs = @{
   checksumType64= 'sha256'
   url64bit      = $url64
 
-  silentArgs   = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /DIR=`"$env:ChocolateyToolsLocation`""
+  silentArgs   = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /DIR=`"$installLocation`""
   validExitCodes= @(0)
 }
 
