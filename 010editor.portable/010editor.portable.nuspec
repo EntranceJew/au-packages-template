@@ -2,11 +2,11 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>010editor</id>
+    <id>010editor.portable</id>
     <version>8.0.0.20170515</version>
-    <packageSourceUrl>https://github.com/EntranceJew/chocolatey-packages/tree/master/010editor</packageSourceUrl>
+    <packageSourceUrl>https://github.com/EntranceJew/chocolatey-packages/tree/master/010editor.portable</packageSourceUrl>
     <owners>EntranceJew</owners>
-    <title>010 Editor</title>
+    <title>010 Editor  (Portable)</title>
     <authors>SweetScape Software Inc.</authors>
     <projectUrl>https://www.sweetscape.com/010editor/</projectUrl>
     <copyright>2017 SweetScape Software Inc.</copyright>
@@ -18,9 +18,9 @@
     <summary>010 Editor is a hex and process editor that allows exploration of data using binary templates and interaction with data via scripts</summary>
     <description>(30 day trial) Easily edit any text file, binary file, drive, or process on your computer. Our unique Binary Templates technology allows you to view and edit complex binary data in an easy, intuitive way. Includes a whole range of powerful analysis and editing tools.</description>
     <releaseNotes>https://www.sweetscape.com/010editor/release_notes.html</releaseNotes>
-    <dependencies>
-      <dependency id="010editor.install" version="[8.0.0.20170515]" />
-    </dependencies>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
 <!-- character encoding: “UTF-8” -->

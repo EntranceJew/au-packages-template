@@ -1,7 +1,5 @@
-﻿
 $ErrorActionPreference = 'Stop';
 
-$packageName = 'dngrep'
 $url32       = 'https://www.sweetscape.com/download/010EditorWin32Installer.exe'
 $url64       = 'https://www.sweetscape.com/download/010EditorWin64Installer.exe'
 $checksum32  = 'aae746a027689a0153188f2abf095620fff23513b8620ac270421a7d39161a8f'
