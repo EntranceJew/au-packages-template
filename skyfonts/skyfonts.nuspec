@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>skyfonts</id>
+    <version>5.9.1.0</version>
+    <packageSourceUrl>https://github.com/EntranceJew/chocolatey-packages/tree/master/skyfonts</packageSourceUrl>
+    <owners>EntranceJew</owners>
+    <title>SkyFonts</title>
+    <authors>Monotype Imaging Inc.</authors>
+    <projectUrl>http://skyfonts.com/</projectUrl>
+    <copyright>Monotype Imaging Inc.</copyright>
+    <licenseUrl>https://skyfonts.com/eula/</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <!-- <iconUrl>https://cdn.rawgit.com/EntranceJew/chocolatey-packages/20ef4eb3f32d29e1c42f9a41ba292ad13a1a9ed3/010editor/icon.png</iconUrl> -->
+    <tags>skyfonts font manager google fonts</tags>
+    <summary>SkyFonts allows you to install fonts from participating sites such as google fonts and keep them up to date</summary>
+    <description>## The simplest way to try, install, and manage fonts.
+
+Install fonts from participating sites with a single click. Fonts are installed from the cloud on your computer in seconds.
+
+## Great type should just work.
+**Install and remove fonts from the cloud.**
+No need to fill up your hard drive. Your fonts are available in the cloud, any time you need them, and you can easily remove fonts when you’re not using them.
+
+**Try fonts in your design apps, before you buy.**
+You shouldn’t have to spend hard-earned cash to find out if a font is going to work with your content. Font trials work with any desktop application, just like your regularly installed fonts.
+
+**Subscribe to font libraries.**
+On [participating sites](https://skyfonts.com/#font-providers), subscriptions powered by the SkyFonts service allow “all-you-can-eat” access to libraries of over 11,000 fonts.
+
+## Fonts on your computer in seconds.
+With the SkyFonts app installed on your Windows or Mac OSX system, you simply browse your favorite font websites to find the perfect font, then click the _Install_ button on the site. SkyFonts will download and activate your fonts in seconds.
+</description>
+    <releaseNotes>https://skyfonts.com/release-notes/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+<!-- character encoding: “UTF-8” -->
