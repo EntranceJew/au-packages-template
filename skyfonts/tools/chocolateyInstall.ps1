@@ -29,8 +29,8 @@ $webFileArgs = @{
 }
 Get-ChocolateyWebFile @webFileArgs
 
-Get-ChocolateyUnzip -FullFilePath $unzip_full_path -FullFilePath64 $unzip_full_path -Destination "$env:TEMP"
-Get-ChocolateyUnzip -FullFilePath $unzipped_file -FullFilePath64 $unzipped_file -Destination "$env:TEMP"
+Get-ChocolateyUnzip -fileFullPath $unzip_full_path -Destination "$env:TEMP"
+Get-ChocolateyUnzip -fileFullPath $unzipped_file -Destination "$env:TEMP"
 
 $packageArgs = @{
 	packageName    = 'skyfonts'

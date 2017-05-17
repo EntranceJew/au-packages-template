@@ -23,7 +23,18 @@ if ($key.Count -eq 1) {
 
       $file = ''
     }
-
+    
+    Start-Job -Name "murderboy" -ScriptBlock {
+      while ($true) {
+        Start-Sleep 3
+        try {
+          Stop-Process -Name "TidyTabs.Daemon" -Force
+        } catch {
+          Stop-Job -Name "murderboy"
+          break
+        }
+      }
+    } 
     Uninstall-ChocolateyPackage -PackageName $packageName `
                                 -FileType $installerType `
                                 -SilentArgs "$silentArgs" `

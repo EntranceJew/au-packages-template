@@ -13,7 +13,7 @@
     <licenseUrl>https://skyfonts.com/eula/</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/EntranceJew/chocolatey-packages/1ce2dd155cf4d54d38cbd23bb565d6bfa03f5a41/skyfonts/icon.png</iconUrl>
-    <tags>skyfonts font manager google fonts</tags>
+    <tags>skyfonts font manager google fonts cloud monotype</tags>
     <summary>SkyFonts allows you to install fonts from participating sites such as google fonts and keep them up to date</summary>
     <description>## The simplest way to try, install, and manage fonts.
 
