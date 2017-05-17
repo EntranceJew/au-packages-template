@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
   Updates nuspec file description from README.md
 

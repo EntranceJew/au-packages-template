@@ -1,4 +1,4 @@
-. $PSScriptRoot\..\010editor.install\update.ps1
+﻿. $PSScriptRoot\..\010editor.install\update.ps1
 
 function global:au_SearchReplace {
    @{

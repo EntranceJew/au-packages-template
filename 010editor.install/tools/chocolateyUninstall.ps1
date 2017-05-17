@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop';
+﻿$ErrorActionPreference = 'Stop';
 
 $packageName = '010editor'
 $softwareName = '010 Editor*'

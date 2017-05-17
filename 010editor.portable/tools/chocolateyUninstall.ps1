@@ -1,4 +1,4 @@
-$ErrorActionPreference = 'Stop'
+﻿$ErrorActionPreference = 'Stop'
 
 $installLocation = Join-Path $(Get-ToolsLocation) '010editor'
 

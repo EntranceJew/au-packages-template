@@ -1,4 +1,4 @@
-import-module au
+﻿import-module au
 . $PSScriptRoot\..\_scripts\all.ps1
 
 $domain   = 'https://www.sweetscape.com/'
