@@ -22,5 +22,8 @@
       <dependency id="tidytabs.install" version="[1.2.2.20170517]" />
     </dependencies>
   </metadata>
+  <files>
+      <file src="**" exclude="icon.png;update.ps1" />
+  </files>
 </package>
 <!-- character encoding: “UTF-8” -->

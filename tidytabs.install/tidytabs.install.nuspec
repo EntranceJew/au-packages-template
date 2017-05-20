@@ -19,5 +19,8 @@
     <description>TidyTabs is a tool that brings tabbed browsing to all of your programs. Ever wanted to have Chrome-style tabs in Windows Explorer, Microsoft Office or PuTTY? TidyTabs does just that. It integrates nicely with the OS and you will feel like the multi-tab functionality is a core part of Windows.</description>
     <releaseNotes>http://www.nurgo-software.com/company/news/20-tidytabs</releaseNotes>
   </metadata>
+  <files>
+      <file src="**" exclude="update.ps1" />
+  </files>
 </package>
 <!-- character encoding: “UTF-8” -->
