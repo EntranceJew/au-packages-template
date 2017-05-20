@@ -1,5 +1,33 @@
 ﻿$ErrorActionPreference = 'Stop';
 
+$PreProcesses = Get-Process
+function Delta-Process {
+  Param(
+        [Parameter(ValueFromPipeline = $true)]
+        [System.Diagnostics.Process[]]
+        $BaseProcesses
+  )
+  $PostProcesses = Get-Process
+  $NewProcesses = @()
+
+  $PostProcesses | ForEach-Object {
+    $PostProcess = $_
+    $PossiblyNew = $true
+
+    $BaseProcesses | ForEach-Object {
+      if( ($PostProcess.Id -eq $_.Id) -and ($PostProcess.Name -eq $_.Name) ){
+        $PossiblyNew = $false
+      }
+    }
+
+    if( $PossiblyNew ){
+      $NewProcesses += $PostProcess
+    }
+  }
+
+  return $NewProcesses
+}
+
 $packageName = '010editor'
 $softwareName = '010 Editor*'
 $installerType = 'EXE' 
@@ -36,4 +64,10 @@ if ($key.Count -eq 1) {
   Write-Warning "To prevent accidental data loss, no programs will be uninstalled."
   Write-Warning "Please alert package maintainer the following keys were matched:"
   $key | % {Write-Warning "- $_.DisplayName"}
+}
+
+(Delta-Process $PreProcesses) | ForEach-Object {
+  if( $_.Path.Contains( $env:TEMP ) ){
+    Stop-Process -Id $_.Id -Force
+  }
 }
