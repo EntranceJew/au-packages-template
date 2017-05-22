@@ -18,6 +18,9 @@
     <summary>010 Editor is a hex and process editor that allows exploration of data using binary templates and interaction with data via scripts</summary>
     <description>(30 day trial) Easily edit any text file, binary file, drive, or process on your computer. Our unique Binary Templates technology allows you to view and edit complex binary data in an easy, intuitive way. Includes a whole range of powerful analysis and editing tools.</description>
     <releaseNotes>https://www.sweetscape.com/010editor/release_notes.html</releaseNotes>
+    <dependencies>
+      <dependency id="innounp" version="0.46" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
