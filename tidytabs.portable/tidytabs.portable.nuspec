@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>tidytabs.portable</id>
+    <version>1.2.2.20170522</version>
+    <packageSourceUrl>https://github.com/EntranceJew/chocolatey-packages/tree/master/tidytabs.portable</packageSourceUrl>
+    <owners>EntranceJew</owners>
+    <title>TidyTabs (Portable)</title>
+    <authors>Nurgo Software</authors>
+    <projectUrl>http://www.nurgo-software.com/products/tidytabs</projectUrl>
+    <copyright>2009-2017 Nurgo Software</copyright>
+    <licenseUrl>http://www.nurgo-software.com/company/eula/91-tidytabs</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/EntranceJew/chocolatey-packages/5ce5d64108322be72ebb968733c94c49779ae4e6/tidytabs/icon.png</iconUrl>
+    <docsUrl>http://www.nurgo-software.com/support/tidytabs-faq</docsUrl>
+    <tags>window manager tab group</tags>
+    <summary>TidyTabs is a tool that brings tabbed browsing to all of your programs.</summary>
+    <description>TidyTabs is a tool that brings tabbed browsing to all of your programs. Ever wanted to have Chrome-style tabs in Windows Explorer, Microsoft Office or PuTTY? TidyTabs does just that. It integrates nicely with the OS and you will feel like the multi-tab functionality is a core part of Windows.</description>
+    <releaseNotes>http://www.nurgo-software.com/company/news/20-tidytabs</releaseNotes>
+  </metadata>
+  <files>
+      <file src="**" exclude="update.ps1" />
+  </files>
+</package>
+<!-- character encoding: “UTF-8” -->
