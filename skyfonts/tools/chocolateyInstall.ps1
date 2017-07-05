@@ -1,9 +1,9 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$url32       = 'http://cdn1.skyfonts.com/client/Monotype_SkyFonts_Winx86_5.9.1.0.exe.zip'
-$url64       = 'http://cdn1.skyfonts.com/client/Monotype_SkyFonts_Winx64_5.9.1.0.exe.zip'
-$checksum32  = 'c6c93f13b4f2af0872beae41389a4093d6403157b1bb86b2b5094227191cf903'
-$checksum64  = '619943cc79cfea24e56674e72a4abc0b953930a3ac0d55dbfa0837316b89009a'
+$url32       = 'http://cdn1.skyfonts.com/client/Monotype_SkyFonts_Winx86_5.9.2.0.exe.zip'
+$url64       = 'http://cdn1.skyfonts.com/client/Monotype_SkyFonts_Winx64_5.9.2.0.exe.zip'
+$checksum32  = '00482a97d569d45278a290bd9823c088bbc02012fd0320a16bb023d2c18f663f'
+$checksum64  = 'd99ff383e9faa9f3bb3ae15bece64cb8f083495ff5ddbe3aa3e27f9c0132e6fc'
 
 if((Get-ProcessorBits 64) -and $env:chocolateyForceX86 -ne $true) {
 	$unzip_file = Split-Path $url64 -leaf
