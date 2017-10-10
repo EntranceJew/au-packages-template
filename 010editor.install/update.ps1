@@ -28,8 +28,8 @@ function global:au_GetLatest {
     $url64   = ($download_page64.links | ? href -match $re | select -First 1 -expand href).Replace("../","")
 
     $download_version = Invoke-WebRequest -Uri $version_url
-    $version_text = $($download_version.ParsedHtml.getElementsByTagName("h1") | % innerText)
-    $version_text -match "Version (.*)$"
+    $version_text = $($download_version.ParsedHtml.getElementsByTagName("h2") | select -First 1 | % innerText)
+    $version_text -match "Version (.*) - .*$"
     $version = $Matches[1]
 
     return @{
