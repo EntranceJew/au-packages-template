@@ -2,8 +2,8 @@
 
 $url32       = 'https://www.sweetscape.com/download/010EditorWin32Portable.exe'
 $url64       = 'https://www.sweetscape.com/download/010EditorWin64Portable.exe'
-$checksum32  = '28ba4beecb8e4e5d87c5bd2b4986a25341734956c1bc47034e80241618ee84d7'
-$checksum64  = 'ccf8f90615d7de64734aa3e3974e3e9ec40e9092bd84cadbf0b6a139706e2cb4'
+$checksum32  = '89da30118ba6e868f30ac487a30e92da96fb13bf0646072c59f791dc743dafba'
+$checksum64  = 'f96ab5bb7f0329f46ae47d5bac4d5f75cda341e632e3b29db7ac185e48cf7ccb'
 $installLocation = Join-Path "$env:ChocolateyInstall\lib" "010editor.portable\tools"
 
 $cwd = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
