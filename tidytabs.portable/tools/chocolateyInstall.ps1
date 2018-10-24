@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $url32       = 'http://www.nurgo-software.com/download/TidyTabs.zip'
-$checksum32  = '1e90dedb39711e26e05fdb645dfed46c29c6750de6041a367aab769ff17bb457'
+$checksum32  = '12d8f0c24cb909ba78e8bc12e9d397a846d8ea1eb2cea5774bdc4d792bf591bb'
 $installLocation = Join-Path "$env:ChocolateyInstall\lib" "tidytabs.portable\tools"
 
 New-Item "$installLocation\TidyTabs.Daemon.exe.gui" -type file -force | Out-Null

@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $url32       = 'http://www.nurgo-software.com/download/TidyTabs.msi'
-$checksum32  = '58423eccfaecce547934e3a206e6da39e3d9245b6cd17134be766ac7e1c030f1'
+$checksum32  = '38000af988658be544b2d678042d944fa2c884470d6fc14adb48edcc59b3a756'
 
 $packageArgs = @{
   packageName   = 'tidytabs.install'
