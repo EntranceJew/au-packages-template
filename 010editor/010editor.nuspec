@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>010editor</id>
-    <version>9.0</version>
+    <version>9.0.1</version>
     <packageSourceUrl>https://github.com/EntranceJew/chocolatey-packages/tree/master/010editor</packageSourceUrl>
     <owners>EntranceJew</owners>
     <title>010 Editor</title>
@@ -19,7 +19,7 @@
     <description>(30 day trial) Easily edit any text file, binary file, drive, or process on your computer. Our unique Binary Templates technology allows you to view and edit complex binary data in an easy, intuitive way. Includes a whole range of powerful analysis and editing tools.</description>
     <releaseNotes>https://www.sweetscape.com/010editor/release_notes.html</releaseNotes>
     <dependencies>
-      <dependency id="010editor.install" version="[9.0]" />
+      <dependency id="010editor.install" version="[9.0.1]" />
     </dependencies>
   </metadata>
   <files>

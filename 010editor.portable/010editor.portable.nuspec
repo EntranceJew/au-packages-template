@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>010editor.portable</id>
-    <version>9.0</version>
+    <version>9.0.1</version>
     <packageSourceUrl>https://github.com/EntranceJew/chocolatey-packages/tree/master/010editor.portable</packageSourceUrl>
     <owners>EntranceJew</owners>
     <title>010 Editor  (Portable)</title>
