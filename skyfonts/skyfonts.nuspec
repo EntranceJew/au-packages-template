@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>skyfonts</id>
-    <version>5.9.5.0</version>
+    <version>5.9.5.1</version>
     <packageSourceUrl>https://github.com/EntranceJew/chocolatey-packages/tree/master/skyfonts</packageSourceUrl>
     <owners>EntranceJew</owners>
     <title>SkyFonts</title>
